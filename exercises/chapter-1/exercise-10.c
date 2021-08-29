@@ -11,7 +11,7 @@ int main() {
 		} else if (c=='\\') {
 			printf("\\\\");
 		} else if (c=='\n') {
-			/* extra: so new line characters too, but also print them */
+			/* extra: show new line characters too, but also print them */
 			printf("\\n\n");
 		} else {
 			putchar(c);

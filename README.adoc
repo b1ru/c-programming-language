@@ -1,4 +1,4 @@
-Exercises from the book "C Programming Language, 2nd Edition, Kernighan, 
+Exercise solutions from the book "C Programming Language, 2nd Edition, Kernighan, 
 	Ritchie".
 
 == Progress

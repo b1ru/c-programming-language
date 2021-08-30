@@ -4,8 +4,6 @@ int main ()
 {
 	int c;
 	while ((c=getchar()) != EOF) {
-		if (c=='\n')
-			putchar('\n');
 		if (c==' ' || c=='\t' || c=='\n') {
 			while ((c=getchar()) != EOF) {
 				if (c!=' ' && c!='\t' && c!='\n')

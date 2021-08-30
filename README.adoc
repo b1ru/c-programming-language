@@ -14,8 +14,8 @@ Exercise solutions from the book "C Programming Language, 2nd Edition, Kernighan
 * [x] Exercise 1.8
 * [x] Exercise 1.9
 * [x] Exercise 1.10
-* [ ] Exercise 1.11
-* [ ] Exercise 1.12
+* [x] Exercise 1.11
+* [x] Exercise 1.12
 * [ ] Exercise 1.13
 * [ ] Exercise 1.14
 * [ ] Exercise 1.15

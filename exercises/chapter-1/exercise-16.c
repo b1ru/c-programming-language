@@ -33,8 +33,8 @@ int _getline(char s[], int lim)
 		if (size<lim-1) s[size]=c;
 		size++;
 	}
-	if (size<lim-1) s[size]='\n'; 	// the line feed will be included in the array if there is space
-	if (c != EOF) size++; 			// the line feed must be counted regardless if it makes it on the array
+	if (size<lim-1) s[size]='\n';
+	if (c != EOF) size++;
 	return size;
 }
 

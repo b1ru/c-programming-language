@@ -29,12 +29,19 @@ int main()
 int _getline(char s[], int lim)
 {
 	int c, size=0;
-	while ((c=getchar())!='\n' && c!=EOF){
-		if (size<lim-1) s[size]=c;
-		size++;
+	while (size<lim-1 && (c=getchar())!='\n' && c!=EOF){
+		s[size++]=c;
 	}
-	if (size<lim-1) s[size]='\n';
-	if (c != EOF) size++;
+	if (c != EOF){
+		if (size<lim-1){ 			// we found '\n' before the array gets full
+			s[size++]=c;
+			s[size]='\0';
+		} else {					// array filled before we find '\n'
+			s[size]='\0';
+			while ((c=getchar())!='\n') size++; 	// count the remaining characters that didn't make it to the array
+			size++;									// the line feed 
+		}
+	} 
 	return size;
 }
 

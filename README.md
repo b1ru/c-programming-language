@@ -17,7 +17,7 @@
 - [x] Exercise 1.15
 - [x] Exercise 1.16
 - [x] Exercise 1.17
-- [ ] Exercise 1.18
+- [x] Exercise 1.18
 - [ ] Exercise 1.19
 - [ ] Exercise 1.20
 - [ ] Exercise 1.21
